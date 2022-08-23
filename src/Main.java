@@ -16,6 +16,10 @@ public class Main {
         eda();
         loseweight();
         salary();
+        homework2.zadan1();
+        homework2.zadan3();
+        homework2.zadan4();
+        homework2.zadan5();
 
 
     }
@@ -56,7 +60,7 @@ public class Main {
         var margin_masha = salary_masha_new*12 - salary_masha*12;
         var margin_denis = salary_denis_new*12 - salary_denis*12;
         var margin_kris = salary_kris_new*12 - salary_kris*12;
-        System.out.println("Маша теперь получает " + salary_masha_new + " рублей. Годовой доход вырос на " + margin_masha + " рублей" );
+        System.out.println("теперь получает " + salary_masha_new + " рублей. Годовой доход вырос на " + margin_masha + " рублей" );
         System.out.println("Маша теперь получает " + salary_denis_new + " рублей. Годовой доход вырос на " + margin_denis + " рублей" );
         System.out.println("Маша теперь получает " + salary_kris_new + " рублей. Годовой доход вырос на " + margin_kris + " рублей" );
     }
