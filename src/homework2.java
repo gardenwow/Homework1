@@ -74,4 +74,11 @@ public class homework2 {
 
         }
     }
+    public static void zadan6(){
+        int age = 19;
+        double salary = 58000;
+        if (age < 23){
+            System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + salary * 3 + " рублей");
+        }
+    }
 }

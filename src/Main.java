@@ -11,15 +11,20 @@ public class Main {
         // 2 zadacha
         double firstbox = 78.2;
         double secondbox = 82.7;
-        System.out.println(firstbox+secondbox);
-        System.out.println(secondbox-firstbox);
-        eda();
-        loseweight();
-        salary();
-        homework2.zadan1();
-        homework2.zadan3();
-        homework2.zadan4();
-        homework2.zadan5();
+        //System.out.println(firstbox+secondbox);
+        //System.out.println(secondbox-firstbox);
+        //eda();
+        //loseweight();
+        //salary();
+        //homework2.zadan1();
+       // homework2.zadan3();
+        //homework2.zadan4();
+       // homework2.zadan5();
+        //homework3.zadan1();
+        //homework3.zadan2();
+        //homework3.zadan3();
+        //homework3.zadan4();
+        homework3.zadan5();
 
 
     }
