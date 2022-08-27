@@ -24,7 +24,8 @@ public class Main {
         //homework3.zadan2();
         //homework3.zadan3();
         //homework3.zadan4();
-        homework3.zadan5();
+        //homework3.zadan5();
+        massiv.zadan1();
 
 
     }
