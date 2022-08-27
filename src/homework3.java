@@ -24,7 +24,7 @@ public class homework3 {
         for (int i = 0; i < 2100; i = i + 79 ) {
             if (i > 1822 && i < 2100) {
 
-                System.out.println(i);
+                System.out.printf("segodnta pytnica, %s-e shisslo", i);
             }
         }
     }
