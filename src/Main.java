@@ -26,8 +26,10 @@ public class Main {
         //homework3.zadan4();
         //homework3.zadan5();
         //massiv.zadan1();
-        massiv.zadanChast2();
-        massiv.zadanChast2zadan4();
+        //massiv.zadanChast2();
+        //massiv.zadanChast2zadan4();
+        Stroki.zadan1();
+
 
 
     }
