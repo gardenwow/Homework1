@@ -9,6 +9,7 @@ public class Stroki {
         System.out.printf("Данные %s сотрудника для заполнения отчета —", lowercase);
         String fullNameNew = "Иванов Семён Семёнович";
         System.out.println("\nДанные ФИО сотрудника  — " + fullNameNew.replace("ё", "е"));
+
     }
     public static void zadan2(){
 
