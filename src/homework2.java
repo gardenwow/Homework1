@@ -1,30 +1,32 @@
+import java.util.EmptyStackException;
+import java.time.*;
+
 public class homework2 {
-    public static void zadan1() {
-        var clientOS = 0;
-        var cliendDeviceYear = 2017;
-        if (clientOS == 0) {
-            if (cliendDeviceYear < 2015) {
-                System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+    public static void zadan1(int clientOS, int clientDeviceYear) {
+        if (String.valueOf(clientDeviceYear).isEmpty()) {
+            clientDeviceYear = LocalDate.now().getYear();}
+            if (clientOS == 0) {
+                if (clientDeviceYear < 2015) {
+                    System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+                } else {
+                    System.out.println("Установите версию приложения для iOS о ссылке");
+                }
             } else {
-                System.out.println("Установите версию приложения для iOS о ссылке");
-            }
-        } else {
-            if (cliendDeviceYear < 2015) {
-                System.out.println("Установите облегченную версию приложения для Android по ссылке");
-            } else {
-                System.out.println("Установите версию приложения для Android по ссылке");
+                if (clientDeviceYear < 2015) {
+                    System.out.println("Установите облегченную версию приложения для Android по ссылке");
+                } else {
+                    System.out.println("Установите версию приложения для Android по ссылке");
+                }
             }
         }
-    }
-    public static void zadan3(){
-        int year = 2020;
+    public static void zadan3(int year){
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0){
             System.out.println(year + " год является високосным");
         }
         else System.out.println(year + " год не является високосным");
     }
-    public static void zadan4(){
-        int deliveryDistance = 50;
+    public static void zadan4(int deliveryDistance){
+
         if (deliveryDistance <= 20){
             System.out.println("Потребуется дней: " + 1);
         } else if (deliveryDistance > 20 && deliveryDistance <= 60) {

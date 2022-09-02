@@ -10,6 +10,7 @@ public class Stroki {
         String fullNameNew = "Иванов Семён Семёнович";
         System.out.println("\nДанные ФИО сотрудника  — " + fullNameNew.replace("ё", "е"));
 
+
     }
     public static void zadan2(){
 

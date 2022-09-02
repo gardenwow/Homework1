@@ -65,10 +65,19 @@ public class massiv {
         }
     public static void zadanChast2zadan4(){
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        char[] reverseFullName1 = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         System.out.println();
         for (int i = reverseFullName.length-1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
         }
+        char symbol;
+        for (int i = 0; i < reverseFullName1.length / 2; i++){
+            symbol = reverseFullName1[i];
+            reverseFullName1[i] = reverseFullName1[reverseFullName1.length - 1 - i];
+            reverseFullName1[reverseFullName1.length - 1 - i] = symbol;
+        }
+        System.out.println();
+        System.out.println(reverseFullName1);
     }
 }
 

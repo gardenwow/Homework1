@@ -1,7 +1,9 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        byte work1 = 1;
+        /* byte work1 = 1;
         short work2 = 11;
         int work3 = 4;
         long work4 = 55555555L;
@@ -10,14 +12,14 @@ public class Main {
         char work7 = 'a';
         // 2 zadacha
         double firstbox = 78.2;
-        double secondbox = 82.7;
+        double secondbox = 82.7; */
         //System.out.println(firstbox+secondbox);
         //System.out.println(secondbox-firstbox);
         //eda();
         //loseweight();
         //salary();
         //homework2.zadan1();
-       // homework2.zadan3();
+        //homework2.zadan3();
         //homework2.zadan4();
        // homework2.zadan5();
         //homework3.zadan1();
@@ -28,7 +30,14 @@ public class Main {
         //massiv.zadan1();
         //massiv.zadanChast2();
         //massiv.zadanChast2zadan4();
-        Stroki.zadan1();
+        //Stroki.zadan1();
+        // metods
+        Scanner scanner = new Scanner(System.in);
+        homework2.zadan3(scanner.nextInt());
+        System.out.println("vvedi iOS=0 or and =1; and release year");
+        homework2.zadan1(scanner.nextInt(), scanner.nextInt());
+        System.out.println("Pасстояние от нашего офиса до адреса доставки");
+        homework2.zadan4(scanner.nextInt());
 
 
 
