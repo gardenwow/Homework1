@@ -25,14 +25,17 @@ public class homework2 {
         }
         else System.out.println(year + " год не является високосным");
     }
-    public static void zadan4(int deliveryDistance){
-
+    public static int zadan4(int deliveryDistance){
+        int days;
         if (deliveryDistance <= 20){
-            System.out.println("Потребуется дней: " + 1);
+            return days = 1;
+            //System.out.println("Потребуется дней: " + 1);
         } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
-            System.out.println("Потребуется дней: " + 2);
+            return days = 2;
+            //System.out.println("Потребуется дней: " + 2);
         }
-        else System.out.println("Потребуется дней: " + 3);
+        else return days = 3;
+            //System.out.println("Потребуется дней: " + 3);
     }
     public static void zadan5(){
         int mouthNumber = 8;

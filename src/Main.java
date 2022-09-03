@@ -37,8 +37,7 @@ public class Main {
         System.out.println("vvedi iOS=0 or and =1; and release year");
         homework2.zadan1(scanner.nextInt(), scanner.nextInt());
         System.out.println("Pасстояние от нашего офиса до адреса доставки");
-        homework2.zadan4(scanner.nextInt());
-
+        System.out.println("Потребуется дней: " + homework2.zadan4(scanner.nextInt()));
 
 
     }
