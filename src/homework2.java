@@ -6,9 +6,9 @@ public class homework2 {
         int currentYear = LocalDate.now().getYear();
             if (clientOS == 0) {
                 if (clientDeviceYear < currentYear) {
-                    System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+                    System.out.println("Установите облегченную версию приложения для iOS по ссылке ");
                 } else {
-                    System.out.println("Установите версию приложения для iOS о ссылке");
+                    System.out.println("Установите версию приложения для iOS о ссылке ");
                 }
             } else {
                 if (clientDeviceYear < currentYear) {
