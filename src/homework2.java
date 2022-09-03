@@ -3,16 +3,15 @@ import java.time.*;
 
 public class homework2 {
     public static void zadan1(int clientOS, int clientDeviceYear) {
-        if (String.valueOf(clientDeviceYear).isEmpty()) {
-            clientDeviceYear = LocalDate.now().getYear();}
+        int currentYear = LocalDate.now().getYear();
             if (clientOS == 0) {
-                if (clientDeviceYear < 2015) {
+                if (clientDeviceYear < currentYear) {
                     System.out.println("Установите облегченную версию приложения для iOS по ссылке");
                 } else {
                     System.out.println("Установите версию приложения для iOS о ссылке");
                 }
             } else {
-                if (clientDeviceYear < 2015) {
+                if (clientDeviceYear < currentYear) {
                     System.out.println("Установите облегченную версию приложения для Android по ссылке");
                 } else {
                     System.out.println("Установите версию приложения для Android по ссылке");
