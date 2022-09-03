@@ -3,16 +3,15 @@ import java.time.*;
 
 public class homework2 {
     public static void zadan1(int clientOS, int clientDeviceYear) {
-        if (String.valueOf(clientDeviceYear).isEmpty()) {
-            clientDeviceYear = LocalDate.now().getYear();}
+        int currentYear = LocalDate.now().getYear();
             if (clientOS == 0) {
-                if (clientDeviceYear < 2015) {
-                    System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+                if (clientDeviceYear < currentYear) {
+                    System.out.println("Установите облегченную версию приложения для iOS по ссылке ");
                 } else {
-                    System.out.println("Установите версию приложения для iOS о ссылке");
+                    System.out.println("Установите версию приложения для iOS о ссылке ");
                 }
             } else {
-                if (clientDeviceYear < 2015) {
+                if (clientDeviceYear < currentYear) {
                     System.out.println("Установите облегченную версию приложения для Android по ссылке");
                 } else {
                     System.out.println("Установите версию приложения для Android по ссылке");
@@ -25,14 +24,17 @@ public class homework2 {
         }
         else System.out.println(year + " год не является високосным");
     }
-    public static void zadan4(int deliveryDistance){
-
+    public static int zadan4(int deliveryDistance){
+        int days;
         if (deliveryDistance <= 20){
-            System.out.println("Потребуется дней: " + 1);
+            return days = 1;
+            //System.out.println("Потребуется дней: " + 1);
         } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
-            System.out.println("Потребуется дней: " + 2);
+            return days = 2;
+            //System.out.println("Потребуется дней: " + 2);
         }
-        else System.out.println("Потребуется дней: " + 3);
+        else return days = 3;
+            //System.out.println("Потребуется дней: " + 3);
     }
     public static void zadan5(){
         int mouthNumber = 8;
